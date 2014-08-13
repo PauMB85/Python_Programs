@@ -34,7 +34,7 @@ def envioMail(sendFrom,sendTo,sendSubject,sendText):
     mailServer.ehlo()
     mailServer.starttls()
     mailServer.ehlo()
-    mailServer.login("paumb85@gmail.com","pauclio16v")
+    mailServer.login("YourMail","Your_Password")
     # send mail                                                                                         
     mailServer.sendmail(sendFrom, sendTo, msg.as_string())
     # Close                                                                                             
